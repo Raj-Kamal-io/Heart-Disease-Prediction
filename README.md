@@ -16,15 +16,8 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ## 📐 Pipeline Architecture
 
-```mermaid
-graph TD
-    A[notebook/data/heart.csv] -->|Data Ingestion| B(artifacts/raw, train, test split)
-    B -->|Data Transformation| C(artifacts/preprocessor.pkl)
-    C -->|Model Trainer + Grid Search| D(artifacts/model.pkl)
-    D -->|Real-time Flask Inputs| E[predict_pipeline.py]
-    E -->|Interactive Predictions| F[Flask Web UI]
-    C -->|Real-time Scaling| E
-```
+![Pipeline Architecture](docs/pipeline_architecture.svg)
+
 
 ---
 
