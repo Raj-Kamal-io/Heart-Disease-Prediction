@@ -16,7 +16,7 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ## 📐 Pipeline Architecture
 
-![Pipeline Architecture](docs/pipeline_architecture.svg)
+![Pipeline Architecture](docs/pipeline_architecture.png)
 
 
 ---
