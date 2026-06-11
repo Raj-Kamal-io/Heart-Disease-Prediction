@@ -4,7 +4,7 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Modular Codebase Architecture:** Follows industry-standard practices, separating components for Ingestion, Transformation, Training, and Prediction.
 - **Robust Preprocessing Pipeline:** Handled automatically via `ColumnTransformer` (incorporating `SimpleImputer` for handling missing values and `StandardScaler` for normalization).
@@ -14,7 +14,7 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ---
 
-## 📐 Pipeline Architecture
+## Pipeline Architecture
 
 ![Pipeline Architecture](docs/pipeline_architecture.png)
 
@@ -61,7 +61,7 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ---
 
-## 🫀 Clinical Parameters & Input Details
+## Clinical Parameters & Input Details
 
 The prediction model relies on the following 13 clinical inputs to determine the risk score:
 
