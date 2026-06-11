@@ -137,27 +137,3 @@ python app.py
 Open your browser and navigate to `http://localhost:5000/predictdata` to start making heart disease risk predictions using the interactive UI form!
 
 ---
-
-## ☁️ How to Push this Project to GitHub
-
-To share your work on GitHub, open your terminal in this directory and execute the following commands:
-
-```bash
-# 1. Initialize Git repository
-git init
-
-# 2. Add files to staging area
-git add .
-
-# 3. Create your first commit
-git commit -m "Initial commit: Modular machine learning heart disease prediction system"
-
-# 4. Rename the default branch to 'main'
-git branch -M main
-
-# 5. Add your remote GitHub repository
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-
-# 6. Push code to GitHub
-git push -u origin main
-```
