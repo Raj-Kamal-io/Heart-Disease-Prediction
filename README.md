@@ -1,10 +1,10 @@
 # Heart Disease Prediction System (Modular ML Pipeline)
 
-A production-grade machine learning project designed with a modular codebase architecture. It automates the entire ML lifecycle—including data ingestion, data preprocessing/transformation, model training with hyperparameter tuning, and real-time inference served through a responsive Flask web application.
+A production-grade machine learning project designed with a modular codebase architecture. It automates the entire ML lifecycle including data ingestion, data preprocessing/transformation, model training with hyperparameter tuning, and real-time inference served through a responsive Flask web application.
 
 ---
 
-## Features
+##  Features
 
 - **Modular Codebase Architecture:** Follows industry-standard practices, separating components for Ingestion, Transformation, Training, and Prediction.
 - **Robust Preprocessing Pipeline:** Handled automatically via `ColumnTransformer` (incorporating `SimpleImputer` for handling missing values and `StandardScaler` for normalization).
@@ -14,7 +14,7 @@ A production-grade machine learning project designed with a modular codebase arc
 
 ---
 
-## Pipeline Architecture
+##  Pipeline Architecture
 
 ![Pipeline Architecture](docs/pipeline_architecture.png)
 
